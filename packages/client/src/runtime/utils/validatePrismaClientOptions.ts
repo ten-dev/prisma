@@ -219,7 +219,7 @@ Expected string or undefined.`,
       for (const [fieldName, value] of Object.entries(modelConfig)) {
         const field = modelOrType.fields.find((field) => field.name === fieldName)
         if (!field) {
-          validationErrors.push({ kind: 'UnknownField', modelKey, fieldName })
+          //validationErrors.push({ kind: 'UnknownField', modelKey, fieldName })
           continue
         }
         if (field.relationName) {
