@@ -1,6 +1,9 @@
 {
-  "name": "@prisma/client",
-  "version": "0.0.0",
+  "name": "@ten-dev/prisma-client",
+  "version": "0.0.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript ORM for Node.js that's tailored to your data. Supports PostgreSQL, CockroachDB, MySQL, MariaDB, SQL Server, SQLite & MongoDB databases.",
   "keywords": [
     "ORM",
@@ -129,7 +132,7 @@
   "homepage": "https://www.prisma.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prisma/prisma.git",
+    "url": "https://github.com/ten-dev/prisma.git",
     "directory": "packages/client"
   },
   "author": "Tim Suchanek <suchanek@prisma.io>",
